@@ -62,11 +62,11 @@ export default function Client() {
           <Box display="flex" justifyContent="space-between">
             <Typography variant="h4" textAlign={"left"}>
               {isRegister
-                ? "Inclusao de cadastro de Cliente"
+                ? "Cadastro de Cliente"
                 : "Edição de cadastro de Cliente"}
             </Typography>
 
-            <Button onClick={handleGoHome}>Home</Button>
+            <Button onClick={handleGoHome}>My Application Vite</Button>
           </Box>
 
           {!isRegister && isLoading && <CircularProgress sx={{ mx: "auto" }} />}
